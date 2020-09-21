@@ -2413,3 +2413,23 @@ Usage (In Ghost editor):
         margin-left: 0;
     }
 }
+
+
+
+/* 12. Nick's custom stuff
+/* ---------------------------------------------------------- */
+.bottom-right a img {
+    width: 20px;
+    height: auto;
+    position: relative;
+    #opacity: 0.3;
+}
+
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+

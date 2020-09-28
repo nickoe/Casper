@@ -52,7 +52,7 @@ into the {body} of the default.hbs template --}}
 
             <section class="post-full-content">
                 <div class="post-content">
-                {{#get "posts" filter="tags:aausat6"}}
+                {{#get "posts" filter="tags:[labnotes, aausat6]"}}
                     {{#foreach posts}}
                         <hr>
                         <h1 datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMMM YYYY"}}</h1>

@@ -1848,8 +1848,10 @@ Usage (In Ghost editor):
 }
 
 .post-template .post-content > p:first-child {
+  /*
     font-size: 1.25em;
     line-height: 1.5em;
+   */
 }
 
 .post-full-content .kg-image {
